@@ -18,7 +18,14 @@ def Dijkstras(graph, start, goal):
             if minNode is None:
                 minNode = node
 
-            elif shortest_distance[node] < shortest_distance[minNode]:
+            elif shortest_difun getMoneySpent(keyboards: Array<Int>, drives: Array<Int>, b: Int): Int {
+    var countItem = -1
+    for(k in keyboards.indices){
+
+        for(d in drives.indices){
+            val total = keyboards[k] + drives[d]
+            if(total <= b && countItem < total){
+                countItem = totalstance[node] < shortest_distance[minNode]:
                 minNode = node
 
         for chilNode,weight in graph[minNode].items():
